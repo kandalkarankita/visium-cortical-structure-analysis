@@ -1,0 +1,27 @@
+# Data files
+data/*.h5ad
+data/*.h5
+data/*.csv
+data/*.gz
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Figures generated at runtime
+figures/*.png
+figures/*.pdf
+
+# Never push your token
+*.token
